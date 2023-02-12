@@ -1,0 +1,156 @@
+  /*-----------------------Banner-----------------------*/
+.destaque {
+	height: 305px;
+	background-image: url(../assets/bannerteleco.jpg);
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	padding: 32px 32px 0px 32px;
+  }
+
+  .banner {
+	width: 751px;
+	height: 261px;
+	padding-left: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  }
+
+  .banner h1 {
+	color: var(--texto-destaque);
+	font-size: 45px;
+	font-weight: bold;
+	text-shadow: 3px 3px 0px #000000, 5px 4px 0px rgb(0 0 0 / 15%);
+  }
+
+  .banner h4 {
+	color: var(--texto-destaque);
+	font-size: 22px;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #000000, 5px 4px 0px rgba(73, 73, 73, 0.04);
+  }
+
+  .banner button {
+	background-image: url(../assets/bottonimg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/* background-color: var(--azul-destaque); */
+	border: #bc9a1c;
+	border-radius: 25%;
+	color: var(--texto-destaque);
+	font-size: medium;
+	font-weight: bold;
+	height: 60px;
+	width: 130px;
+  }
+
+  .banner button:hover {
+	font-size: x-large;
+	border: solid 5px var(--input-bg);
+  }
+
+  /*-----------------------Main-----------------------*/
+
+  .prod-generales {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+  }
+
+  .seccion-produtos, 
+  .seccion-sofware {
+	height: 100%;
+	padding: 0px 150px 0px 150px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+  }
+
+  .prod-titulo {
+	padding: 20px 110px 0px 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+
+  .prod-titulo .titulo {
+	font-size: 32px;
+	font-weight: bold;
+	padding: 30px;
+	color: #b6b4b4;
+  }
+
+  .mostrar-mas {
+	font-weight: bold;
+	margin-top: 25px;
+	color: var(--azul-destaque);
+	display: flex;
+	padding: 30px;
+  }
+
+  .div-verTudo {
+	display: flex;
+	gap: 0.4rem;
+	margin-right: 10px;
+  }
+
+  .producto, .hobbie {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 32px;
+	padding: 0px 15px 0px 15px;
+  }
+
+  .verTudo {
+	width: 15px;
+	height: 15px;
+  }
+  
+  .product-name {
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+  }
+  .preco {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+  }
+  
+  .ver-produto {
+	font-weight: bold;
+	font-size: 16px;
+  }
+  
+  img {
+	width: 176px;
+	height: 174px;
+  }
+  
+  h1,
+  p {
+	margin: 4px 0px 0px 0px;
+	color: #fff;
+  }
+
+  .prod-titulo2 {
+    padding: 20px 110px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .prod-titulo2 .titulo2 {
+	font-size: 32px;
+	font-weight: bold;
+	padding: 30px;
+	color: #b6b4b4;
+  }
+  .sofware{
+		margin: 4px 0px 0px 4px;
+		color: #fff;
+		padding: 0px 15px 0px 15px;
+		margin-bottom: 32px;
+	
+  }

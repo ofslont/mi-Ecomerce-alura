@@ -1,0 +1,124 @@
+
+.img-producto, .img-producto2, .img-producto3{
+   
+	height: 100%;
+	padding: 0px 150px 0px 150px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../assets/espacio.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+		
+  }
+
+  .img-producto2{
+       
+    background-image: url(../../assets/fondo-arte.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+   }
+
+   .img-producto3{
+       
+    background-image: url(../../assets/fondo-sao.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+   }
+
+  .titulo-prod-ind
+  {
+  font-size: 26px;
+  font-weight: bolder;
+  display: flex;
+  }
+
+  .descripcion-prod-ind{
+    margin-top: 20px;
+    padding: 0px 70px 0px 70px;
+    font-size: 20px;
+    font-weight:lighter;
+    display: flex;
+    text-align: justify;
+    }
+
+  p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .az{
+    color: black;
+    font-weight: bold;
+  }
+  /*------ Girar Imagen -------*/
+
+ .caja{
+ 
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  width: 580px;
+    
+	
+  }
+
+  .indiidualPro {
+    margin: 5px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+	
+  }
+
+  .tarjeta{
+    
+    width: 500px;
+    height: 550px;
+    position: relative; 
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.9); 
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.9);
+    -mox-box-shadow:10px 10px 5px 1px rgba(0,0,0,0);
+  }
+
+  .adelante,.atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+   -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+  }
+
+  .adelante{
+    width: 100%;
+  }
+
+  .atras{
+    transform: rotateY(180deg);
+  }
+
+  .caja:hover .tarjeta{
+    transform: rotateY(180deg);
+
+  } 
+  .card1,.card2{
+    width: 100%;
+    height: 100%;
+  } 
+
+  /* .card1{
+    background-image:url(../../IMG/Tohka-dibuj.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  } 
+  .card2{
+    background-image:url(../../IMG/Tohka-reverse.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+  }  */
+
+

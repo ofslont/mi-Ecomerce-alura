@@ -1,0 +1,184 @@
+.destaque{
+  height: 400px;
+  background-image: url(../assets/bannerteleco2.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+
+}
+
+.products_title,.products_title2, .Obras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 150px 20px 150px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+} 
+
+.products_title2 {
+  background-image: url(../assets/bannerteleco3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 150px;
+  margin-bottom: 15px;
+
+} 
+
+.Obras{
+  color: var(--dorado-destaque);
+  margin-bottom: 20px;
+}
+
+.geral-products {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+ 
+}
+.product-button {
+  background-color: var(--azul-destaque);
+  border: none;
+  color: var(--texto-destaque);
+  height: 51px;
+  width: 180px;
+} 
+
+.regresar{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.regresar-button {
+	background-image: url(../assets/bottonimg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border: #bc9a1c;
+	border-radius: 25%;
+	color: var(--texto-destaque);
+	font-size: medium;
+	font-weight: bold;
+	height: 40px;
+	width: 100px;
+  }
+
+  .regresar-button:hover {
+	font-size: small;
+	border: solid 5px var(--input-bg);
+  }
+  .seccion-destaque{
+  
+    height: 1005;
+    padding: 0px 300px 0px 300px;
+    display: flex;
+    justify-content: space-between;      }
+
+
+.products-section, .seccion-sofware{
+  
+  height: 100%;
+	padding: 0px 150px 0px 150px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.Obr-list {
+  display: flex;
+  padding: 0px 15px 0px 15px;
+  flex-direction: row;
+ 
+
+}
+.Obr-list:hover{
+  transform: scale(1.2);
+  border-radius: 50%;
+
+  
+}
+.img-des{
+  box-shadow: 14px 15px 3px 1px rgba(0,0,0,0.50);
+  -webkit-box-shadow: 14px 15px 3px 1px rgba(0,0,0,0.50);
+  -moz-box-shadow: 14px 15px 3px 1px rgba(0,0,0,0.50);
+}
+
+.img-des:hover{
+  border: solid 3px var(--dorado-destaque);
+  border-radius: 50%;
+  filter: saturate(200%);
+  box-shadow: 14px 15px 3px 1px rgba(0,0,0,0.70);
+ -webkit-box-shadow: 14px 15px 3px 1px rgba(0,0,0,0.70);
+ -moz-box-shadow: 14px 15px 3px 1px rgba(0,0,0,0.70);
+}
+
+
+
+.producto, .hobbie,.sofware {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  width: 180px;
+  padding: 0px 15px 0px 15px;
+} 
+
+
+
+.precio {
+  color: var(--dorado-destaque);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.descripcion{
+  color:white;
+  font-weight: bold;
+  font-size: 12px;
+  text-align:center;
+}
+
+img {
+  width: 176px;
+  height: 174px;
+} 
+
+.container {
+  position: relative;
+}
+
+.container .editImage {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+.container .deleteImage {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+.editImage,
+.deleteImage {
+  width: 24px;
+  height: 24px;
+}
+
+.buttonDelete,
+.buttonEdit {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+h1,
+p {
+  margin: 8px 0px 8px 0px;
+  color: var(--dorado-destaque);
+  height: auto;
+  
+}
+
+
+
+
+

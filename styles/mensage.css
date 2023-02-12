@@ -1,0 +1,65 @@
+main {
+  background-image: url(../assets/bannerteleco4.jpg);
+	background-size: 100vw;
+	background-repeat:no-repeat;
+  height: 20rem;
+  padding: 50px;
+}
+
+.agradecimiento{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  height: 350px;
+  margin-top: -30px;
+
+  
+}
+.msg{
+  height: 100%;
+  width: 100%;
+}
+
+.control{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px 320px 0px 320px;
+ 
+}
+/* .msg{
+  display: flex;
+
+  font-size: 90px;
+  line-height: 26px;
+  justify-content: center;
+  color: var(--dorado-destaque);
+  transform: translate(50%, -50%);
+  text-transform: uppercase;
+  text-shadow: 
+  1px 1px 1px #919191,
+  1px 2px 1px #919191,
+  1px 3px 1px #919191,
+  1px 4px 1px #919191,
+  1px 5px 1px #919191,
+  1px 6px 1px #919191,
+  1px 7px 1px #919191,
+  1px 8px 1px #919191,
+  1px 9px 1px #919191,
+  1px 10px 1px #919191,
+  1px 11px 1px #919191,
+  1px 12px 1px #919191,
+  1px 13px 1px #919191,
+  1px 14px 1px #919191,
+  1px 15px 1px #919191,
+  1px 16px 1px #919191,
+  1px 18px 6px rgba(16, 16,16, 0.4),
+  1px 22px 10px rgba(16, 16,16, 0.5),
+  1px 25px 35px rgba(16, 16,16, 0.5),
+  1px 30px 60px rgba(16, 16,16, 0.5);
+} */
+
+
+
+
+

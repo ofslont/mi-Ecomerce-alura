@@ -1,0 +1,197 @@
+{
+  "producto": [
+    {
+      "name": "Estudio de Radio Enlaces",
+      "imageUrl": "../IMG/RadioE.png",
+      "price": "200",
+      "description": "Estudio y  Diseño de Radio Enlaces en cualquier Sofware.",
+      "id": 1
+    },
+    {
+      "name": "Proyectos con Arduino",
+      "imageUrl": "../IMG/Arduino.png",
+      "price": "300",
+      "description": "Programacion con Microcontroladores.",
+      "id": 2
+    },
+    {
+      "name": "Simulación de Redes de Datos",
+      "imageUrl": "../IMG/RedDatos.png",
+      "price": "200",
+      "description": "Programacion de Red de Datos con Packet Tracer o GNS3.",
+      "id": 3
+    },
+    {
+      "name": "Diseño de Logos",
+      "imageUrl": "../IMG/Logos.jpg",
+      "price": "60",
+      "description": "Diseño de Logos en programas vectoriales.",
+      "id": 4
+    },
+    {
+      "name": "Your Name, Pintura",
+      "imageUrl": "../IMG/Your-Name.jpeg",
+      "price": "220",
+      "id": 5,
+      "description": "Mural Realizado con Pintura Acrilica, Pelicula de ficción YOUR NAME."
+    },
+    {
+      "name": "kurumi, Dibujo",
+      "imageUrl": "../img/kurumi.jpg",
+      "price": "90",
+      "description": "Dibujo de Kurumi Tokisaki Personaje de ficción serie DATE A LIVE.",
+      "id": 6
+    },
+    {
+      "name": "Azuna, Dibujo",
+      "imageUrl": "../IMG/Azuna.jpeg",
+      "price": "70",
+      "description": "Dibujo de Azuna Yuki Personaje de ficción serie SWORD ART ONLINE.",
+      "id": 7
+    },
+    {
+      "name": "Tohka, Dibujo",
+      "imageUrl": "../IMG/Tohka-dibuj.png",
+      "price": "90",
+      "description": "Dibujo de Tohka Yatogami Personaje de ficción serie DATE A LIVE.",
+      "id": 8
+    },
+    {
+      "name": "Figura Tohka",
+      "imageUrl": "https://kurogami.com/med/img/productos/42/85/figura-tohka-yatogami-date-a-live-01.webp",
+      "price": "190",
+      "id": 4,
+      "description": "Figura de Tohka Yatogami Personaje de ficción serie DATE A LIVE."
+    },
+    {
+      "name": "alura",
+      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+      "price": "1000",
+      "id": 25,
+      "description": "Cursos  Alura."
+    },
+    {
+      "name": "One",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlpa9JUDglJ_p5ecd3wZYJ6oNVkH-5dA-lS9zUZ0wyMvheUBgXnbKWhw44XtV1eYDUQjo&usqp=CAU",
+      "price": "100.00",
+      "description": "Cursos  Alura.",
+      "id": 14
+    },
+    {
+      "name": "Figuras, Dragon Ball",
+      "imageUrl": "https://cf.shopee.com.co/file/05cf4bb36a54bd0b4a6dc50988c792c0",
+      "price": "200",
+      "id": 26,
+      "description": "Figuras Anime Dragon Ball."
+    }
+  ],
+  "sofware": [
+    {
+      "name": "MATLAB",
+      "imageUrl": "../IMG/Matlab.jpg",
+      "price": "940",
+      "description": "MATLAB es una plataforma de computación numérica y programación",
+      "id": 100
+    },
+    {
+      "name": "Adobe Illustrator",
+      "imageUrl": "../IMG/Illustrator.png",
+      "price": "379",
+      "description": "Illustrator es un editor de gráficos vectoriales",
+      "id": 101
+    },
+    {
+      "name": "ArcGIS",
+      "imageUrl": "../IMG/ArcGIS.png",
+      "price": "200",
+      "description": "ArcGIS es un software de Sistemas de Información Geográfica o SIG.",
+      "id": 102
+    },
+    {
+      "name": "GNS3",
+      "imageUrl": "https://gns3.com/assets/custom/gns3/images/logo-colour.png",
+      "price": "379",
+      "description": "Simulador de de Red de Datos",
+      "id": 103
+    },
+    {
+      "name": "Eclipse",
+      "imageUrl": "../IMG/Eclipse.png",
+      "price": "0",
+      "description": "Es una plataforma de software compuesto por un conjunto de herramientas de programación de código abierto multiplataforma para desarrollar lo que el proyecto llama Aplicaciones de Cliente Enriquecido.",
+      "id": 104
+    },
+    {
+      "name": "MySQL",
+      "imageUrl": "../IMG/MySQL.png",
+      "price": "0",
+      "description": "Sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos de código abierto más popular del mundo.",
+      "id": 105
+    },
+    {
+      "name": "HTML, CSS, Javascript",
+      "imageUrl": "../IMG/html.png",
+      "price": "0",
+      "description": "Son los tres lenguajes que están en el centro de crear aplicaciones web.",
+      "id": 106
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "World of Warcraft",
+      "imageUrl": "https://as01.epimg.net/meristation/imagenes/2022/04/19/avances/1650394143_899400_1650397098_portada_normal.jpg",
+      "price": "0",
+      "description": "Es un videojuego de rol multijugador masivo en línea desarrollado por Blizzard Entertainment.",
+      "id": 200
+    },
+    {
+      "name": "Megaman X Dive",
+      "imageUrl": "https://play-lh.googleusercontent.com/PPaLp_BfNk1eaMImskBfA941nGKrThrIfWRixWGr-cjLSbx9RyepOGR1H_VfrWobBu0=w526-h296-rw",
+      "price": "0",
+      "description": "Es un videojuego de acción y plataformas de la saga Mega Man X desarrollado por Capcom Taiwán para iOS y Android.",
+      "id": 201
+    },
+    {
+      "name": "Gears Of War",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.25609.65595136073047161.857e51a5-2b52-4c0e-8ac2-92b6b4609fc2.6df5069b-fe9a-436c-875c-9e14f0d754a1?q=90&w=480&h=270",
+      "price": "34.400",
+      "description": "Gears of War es un videojuego de disparos en tercera persona, del género acción-aventura, estrategia y terror, desarrollado por Epic Games utilizando el motor de videojuego Unreal Engine 3.",
+      "id": 201
+    },
+    {
+      "name": "Clash Royale",
+      "imageUrl": "https://i.blogs.es/8935db/lroyale/1366_2000.jpg",
+      "price": "0",
+      "description": "Clash Royale es un videojuego de estrategia en línea para dispositivos móviles, creado por la compañía finlandesa Supercell.",
+      "id": 202
+    },
+    {
+      "name": "Naruto Shippuden",
+      "imageUrl": "../IMG/naruto.jpeg",
+      "price": "59",
+      "description": "Anime, La obra narra la historia de un ninja huérfano adolescente llamado Naruto Uzumaki, cuyos padres murieron en el ataque del Zorro Demonio de Nueve Colas, y quien aspira a convertirse en Hokage (líder de su aldea) con el propósito de ser reconocido como alguien importante dentro de la aldea y entre sus compañeros.",
+      "id": 203
+    },
+    {
+      "name": "Date A Live",
+      "imageUrl": "../IMG/date.jpg",
+      "price": "59",
+      "description": "Anime, es una serie de novelas ligeras escritas por Kōshi Tachibana e ilustradas por Tsunako. Una adaptación a anime fue producida por el estudio AIC PLUS+ y empezó a transmitirse el 30 de marzo de 2013 por streaming en Nico Nico Douga.",
+      "id": 204
+    },
+    {
+      "name": "Sword Ard Online",
+      "imageUrl": "../IMG/sword.png",
+      "price": "59",
+      "description": "Anime, también abreviadamente conocida como SAO, es una serie de novelas ligeras japonesas escritas por Reki Kawahara e ilustradas por Abec. A partir de estas, se han creado diversas adaptaciones, tanto de cómic como de anime..",
+      "id": 205
+    },
+    {
+      "name": "shingeki no kyojin",
+      "imageUrl": "../IMG/shing.png",
+      "price": "59",
+      "description": "Anime, Desde hace 100 años los titanes aparecieron de la nada y llevaron a la humanidad al borde de la extinción; la población vive encerrada en ciudades rodeadas de enormes muros. Eren Jaeger, un joven cansado del conformismo, sueña con el mundo exterior.",
+      "id": 206
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" type="text/css" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap"/>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/products.css">
+    
+
+    <title>Alura Geek</title>
+  </head>
+  <body>
+    <header>
+
+      <nav>
+        <div class="logo-buscar">
+          <div class="logo">
+            <img src="../assets/logo.png" alt="logo" />
+            <p class="logo-azul">Alura</p>
+            <p>Geek</p>
+          </div>
+          <div class="cont-buscar2">
+          <label for="buscar"></label>
+          <input  type="text" id ="formulario" placeholder="¿Que Quiero encontrar?" />
+          <button class="btn-busca2" id="btnbusca"></button>
+        </div>
+        <ul id="resultado" class="resultado2">
+          <li class="list-resultado">
+            
+          </li>
+        </ul>
+        </div>
+
+        <div class ="regresar">
+        <a href="/screens/index.html"> <button class="regresar-button">Regresar</button> </a>
+       </div>
+       
+      </nav>
+    </header>
+
+    <section class="destaque">
+      <div class="Obras">
+        <span>Obras Destacadas</span> 
+      </div> 
+
+      <section class="seccion-destaque">
+
+        <div class="Obr-list">
+          <a href="../screens/Pro-individuales/tohka.html">
+          <img src="../IMG/Tohka-reverse.jpg" class="img-des"></a>
+        </div>  
+        <div class="Obr-list">
+          <a href="../screens/Pro-individuales/azuna.html">
+          <img src="../IMG/azuna-reverse.png" class="img-des"></a>
+        </div>
+        <div class="Obr-list">
+          <a href="../screens/Pro-individuales/kurumi.html">
+          <img src="../IMG/kurumi-reverse.png " class="img-des"></a>
+        </div>
+            
+        </section>
+    </section>
+    
+    
+
+    <section class="geral-products">
+      <div class="products_title">
+        <span>Todos los Productos</span> 
+      </div>   
+      <section class="products-section" data-allProducts>
+        
+      </section>
+
+      <section class="seccion-sofware" data-sofware>
+
+      </section>
+
+    </section>
+
+    
+    
+    <section class="contato">
+      <div class="referencia">
+        <img src="../assets/logo.png" alt="logo" />
+        <p>Alura</p>
+        <p>Geek</p>
+      </div>
+      <div class="links-uteis">
+        <a href="">Quienes somos</a>
+        <a href="">Política de Privacidad</a>
+        <a href="">Programa de fidelidad</a>
+        <a href="">Nuestras Tiendas</a>
+        <a href="">Quiero ser franquiciado</a>
+        <a href="">Anuncie aquí</a>
+      </div>
+
+      <div class="form">
+        <p>Hable con nosotros</p>
+        <div class="label-float">
+          <form action="#"  msg-form>
+          <input
+            type="text"
+            name="Nombree"
+            id="Nombre"
+            class="input-nombre"
+            placeholder="Nombre"
+            data-nombre
+            
+            
+          />
+        </div>
+        <textarea
+          name="mensagem"
+          id="msg"
+          cols="5"
+          rows="5"
+          placeholder="Escriva su Mensage"
+          
+        ></textarea>
+        <button type="submit">Enviar Mensaje</a></button>
+        <form action="#" class="form-cadastro" data-form>
+    
+        </form>
+      </div>
+    </section>
+
+  <script type="module" src="../controllers/lista-Todos-productos.js"></script>
+  <script type="module" src="../controllers/buscar.js" defer ></script>
+  <script type="module" src="../controllers/mensage-controller.js"></script>
+</body>
+</html>
